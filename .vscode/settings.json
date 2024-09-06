@@ -5,7 +5,13 @@
     "**/test.py": true,
     "**/Icon?": true,
     "**/.gitignore": true,
-    "**/.gitattributes": true
+    "**/.gitattributes": true,
+    "**/launch.json": true,
+    "**/.DS_Store": true,
+    "**/ex": true,
+    "**/example": true,
+    "**/Lab": true,
+    "**/README.md": true
   },
 
   "workbench.colorTheme": "Default Dark Modern",
