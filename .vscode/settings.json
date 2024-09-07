@@ -8,7 +8,7 @@
     "**/.gitattributes": true,
     "**/launch.json": true,
     "**/.DS_Store": true,
-    "**/ex": true,
+    // "**/ex": true,
     "**/example": true,
     "**/Lab": true,
     "**/README.md": true
@@ -157,7 +157,7 @@
     "c": "cd $dir && clang -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     // "python": "cd $dir && python3 $fileName",
-    "python": "cd $dir && clear && python3 $fileName && echo ''",
+    "python": "cd $dir && clear && rm -rf temptemptempCodeRunnerFile.py && python3 $fileName && echo ''",
     "php": "cd $dir && php $fileName",
     "perl": "cd $dir && perl $fileName",
     "ruby": "cd $dir && ruby $fileName",
